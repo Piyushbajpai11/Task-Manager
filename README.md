@@ -68,14 +68,16 @@ npm install
 
 # Start development server
 npm run dev
+```
 
-Firebase Setup
+
+### Firebase Setup
+
 1. Create a new project in Firebase Console
-
 2. Enable Google Authentication
-
 3. Replace the placeholder config in src/firebase.ts with your credentials:
 
+```
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
@@ -84,7 +86,7 @@ const firebaseConfig = {
 };
 ```
 
-##🧠 What I Learned
+### 🧠 What I Learned
 
 - TypeScript Integration: Strong typing for props and state
 - Animation Patterns: Framer Motion for declarative animations
@@ -93,7 +95,7 @@ const firebaseConfig = {
 - Responsive Design: Tailwind's mobile-first approach
 
 
-## 🌟 Roadmap
+### 🌟 Roadmap
 
 Firebase Firestore integration
 Dark mode toggle
@@ -101,17 +103,16 @@ PWA support for mobile
 Due date notifications
 Task categories/filtering
 
-
-## 🤝 Contributing
+### 🤝 Contributing
 
 # Contributions are welcome! Please open an issue or submit a PR for any improvements.
 
-Fork the project
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some amazing feature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+- Fork the project
+- Create your feature branch (git checkout -b feature/AmazingFeature)
+- Commit your changes (git commit -m 'Add some amazing feature')
+- Push to the branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
 
+### 📜 License
 
-## 📜 License
 Distributed under the MIT License. See LICENSE for more information.

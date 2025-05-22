@@ -82,7 +82,7 @@ const firebaseConfig = {
   projectId: "YOUR_PROJECT_ID",
   // ... other config values
 };
-
+```
 
 ##🧠 What I Learned
 

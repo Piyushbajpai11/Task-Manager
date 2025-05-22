@@ -30,23 +30,6 @@ A sleek and modern **Task Manager** app with smooth animations, due dates, and G
 
 ![Task Manager Demo](https://via.placeholder.com/600x300?text=Animated+GIF+Demo) <!-- Replace with GIF -->
 
-## 🏗️ Project Structure
-
-task-manager/
-├── public/
-├── src/
-│ ├── components/ # Reusable UI components
-│ │ ├── TaskInput.tsx
-│ │ ├── TaskItem.tsx
-│ │ └── Auth.tsx
-│ ├── types/ # TypeScript interfaces
-│ ├── firebase.ts # Firebase configuration
-│ ├── App.tsx # Main application
-│ └── main.tsx # Entry point
-├── tailwind.config.js # Tailwind configuration
-├── vite.config.ts # Build configuration
-└── README.md
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -56,28 +39,13 @@ task-manager/
 
 ### Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/task-manager.git
-
-# Navigate to project directory
-cd task-manager
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-
 ### Firebase Setup
 
 1. Create a new project in Firebase Console
 2. Enable Google Authentication
 3. Replace the placeholder config in src/firebase.ts with your credentials:
 
-```
+``` bash
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
@@ -94,18 +62,20 @@ const firebaseConfig = {
 - State Management: LocalStorage persistence techniques
 - Responsive Design: Tailwind's mobile-first approach
 
-
 ### 🌟 Roadmap
 
-Firebase Firestore integration
-Dark mode toggle
-PWA support for mobile
-Due date notifications
-Task categories/filtering
+ Firebase Firestore integration
+
+- Dark mode toggle
+- PWA support for mobile
+- Due date notifications
+- Task categories/filtering
+
+---
 
 ### 🤝 Contributing
 
-# Contributions are welcome! Please open an issue or submit a PR for any improvements.
+ Contributions are welcome! Please open an issue or submit a PR for any improvements.
 
 - Fork the project
 - Create your feature branch (git checkout -b feature/AmazingFeature)
@@ -113,6 +83,6 @@ Task categories/filtering
 - Push to the branch (git push origin feature/AmazingFeature)
 - Open a Pull Request
 
-### 📜 License
+## 📜 License
 
 Distributed under the MIT License. See LICENSE for more information.
